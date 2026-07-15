@@ -5,6 +5,7 @@ menu bar utility suite (Apple Silicon, macOS 26+).
 
 ```bash
 brew tap cifyr/freekit
+brew trust cifyr/freekit
 brew install --cask --no-quarantine freekit
 ```
 
