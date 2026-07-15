@@ -15,7 +15,7 @@ cask "freekit" do
   homepage "https://github.com/cifyr/FreeKit"
 
   # Apple Silicon + macOS 26 only (on-device FoundationModels + whisper.cpp/Metal).
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "FreeKit.app"
