@@ -6,12 +6,12 @@
 # first launch. Until the app is notarized, install with:
 #   brew install --cask --no-quarantine freekit
 cask "freekit" do
-  version "0.1.0"
-  sha256 "8921d45278425d945f449eab197c8c890012adc5597856bc0e6a9fb3dd686f12"
+  version "0.2.0"
+  sha256 "58bd0613ae9fc656355d1e6432f5d2c3a1ff21bef73bcbce92bc37192bdcf8a6"
 
   url "https://github.com/cifyr/FreeKit/releases/download/v#{version}/FreeKit.dmg"
   name "FreeKit"
-  desc "Local-first macOS menu bar utility suite: dictation, conversion, compression, and more"
+  desc "Native macOS menu bar utility suite: notch controls, notes, compression, conversion, and more"
   homepage "https://github.com/cifyr/FreeKit"
 
   # Apple Silicon + macOS 26 only (on-device FoundationModels + whisper.cpp/Metal).
